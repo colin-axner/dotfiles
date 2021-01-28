@@ -1,11 +1,11 @@
-"set numbers with good spacing"
-set number numberwidth=2
+set number numberwidth=2    "set numbers with good spacing
 
-"syntax highlighting"
-syntax on
+syntax on                   "syntax highlighting
 
-"ignore cases, useful for searches"
-set ignorecase 
+"searching 
+set ignorecase              "don't match by cases when searching
+set smartcase               "if search begins with capital don't ignorecase
+
 
 "set tab size, replace with spaces, backspace with tab"
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab 
@@ -41,8 +41,7 @@ set splitbelow splitright
 "show file name
 set title
 
-" remove vim status line
-set noshowmode
+set noshowmode              "remove vim status line
 
 
 "vim-go configurations"
