@@ -25,6 +25,10 @@ set hlsearch incsearch
 "fg foreground, bg background"
 hi Search cterm=NONE ctermfg=Black ctermbg=LightBlue
 
+" https://github.com/sainnhe/everforest
+set background=dark
+colorscheme everforest
+
 "This unsets the "last search pattern" register by hitting return
 "The highlighted search pattern is unhighlighted.
 nnoremap <CR> :noh<CR><CR> 
@@ -64,3 +68,5 @@ let g:clang_format#style_options = {
     \ "SpacesInSquareBrackets": "true"}
 
 let g:clang_format#auto_format = 1
+
+
