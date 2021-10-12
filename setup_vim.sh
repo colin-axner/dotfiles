@@ -2,6 +2,11 @@
 
 # I use this to add fancy stuff when I use a fresh cloud instance
 
+# setup vim dir
+mkdir -p ~/.vim/autoload/airline/themes
+mkdir -p ~/.vim/colors
+mkdir -p ~/.vim/doc
+
 # colorscheme
 git clone https://github.com/sainnhe/everforest.git
 cp everforest/autoload/everforest.vim ~/.vim/autoload/
